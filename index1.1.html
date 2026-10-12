@@ -23,7 +23,7 @@
                 <label>Last name</label>
                 <div class="input-field">
                     <i class="fa fa-user"></i>
-                    <input type="text" placeholder="Enter your Last name">
+                    <input type="text" placeholder="Enter your Last name" required>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
                 <label>First name</label>
                 <div class="input-field">
                     <i class="fa fa-user"></i>
-                    <input type="text" placeholder="Enter your First name">
+                    <input type="text" placeholder="Enter your First name" required>
                 </div>
             </div>
 
@@ -39,7 +39,7 @@
                 <label>Email address</label>
                 <div class="input-field">
                     <i class="fa fa-envelope"></i>
-                    <input type="email" placeholder="Enter your email">
+                    <input type="email" placeholder="Enter your email" required>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@
                 <label class="password">Password</label>
                 <div class="input-field">
                     <i class="fa fa-lock"></i>
-                    <input type="password" id="password" name="password" placeholder="Create your password">
+                    <input type="password" id="password" name="password" placeholder="Create your password" required>
                 </div>
             </div>
 
@@ -55,26 +55,26 @@
                 <label for="confirm-password">Confirm password</label>
                 <div class="input-field">
                     <i class="fa fa-lock"></i>
-                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password">
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password" required>
                 </div>
             </div>
 
-            <div class="gender">
+            <div class="gender" >
                 <label>Gender</label>
-                <div class="gender-option">
+                <div class="gender-option" >
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Male</label>
 
                     <input type="radio" id="female" name="gender" value="female">
                     <label for="female">Female</label>
 
-                    <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Other</label>
+                    <!-- <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label> -->
                 </div>
             </div>
 
             <div class="terms">
-                <input type="checkbox" id="terms" name="terms">
+                <input type="checkbox" id="terms" name="terms" required>
                 <label for="terms">I agree to the terms & conditions and privacy policy</label>
             </div>
 
