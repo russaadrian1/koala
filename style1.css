@@ -121,12 +121,33 @@ body {
     color: white;
 }
 
+.line {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 0;
+}
+
+.forgot-password {
+    font-size: 15px;
+}
+
+.forgot-password p {
+    margin: 0;
+}
+
 .terms {
     display: flex;
     align-items: center;
-    gap: 8px;
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .terms input {
