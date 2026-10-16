@@ -116,7 +116,7 @@ body {
     display: none;
 }
 
-.gender-option input:checked + label {
+.gender-option input:checked+label {
     background-color: #4F46E5;
     color: white;
 }
@@ -157,12 +157,11 @@ body {
     display: flex;
     align-items: center;
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
 }
 
 .terms input {
-    border-radius: 50%;
     cursor: pointer;
 }
 
@@ -178,7 +177,7 @@ button {
     padding: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-    border-radius: 8px;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
 }
