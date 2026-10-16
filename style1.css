@@ -133,10 +133,20 @@ body {
     align-items: center;
     font-size: 15px;
     margin-left: 0;
+    cursor: pointer;
+}
+
+.remember-me input {
+    cursor: pointer;
+}
+
+.remember-me label {
+    cursor: pointer;
 }
 
 .forgot-password {
     font-size: 15px;
+    cursor: pointer;
 }
 
 .forgot-password p {
@@ -148,10 +158,16 @@ body {
     align-items: center;
     font-size: 15px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .terms input {
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.terms label {
+    cursor: pointer;
 }
 
 button {
